@@ -20,7 +20,7 @@ button1:{"type":"button","size":[80,24],"pos":[40,112],"script":"home.0","patter
 field2:{"type":"field","size":[56,16],"pos":[40,88],"locked":1,"font":"menu","show":"transparent","border":0,"scrollbar":0,"value":"Content"}
 button2:{"type":"button","size":[144,24],"pos":[40,144],"script":"home.1","pattern":37,"text":"Adventures In The Hole"}
 button3:{"type":"button","size":[160,24],"pos":[40,176],"script":"home.2","pattern":37,"text":"Dragonriders (work name)"}
-button4:{"type":"button","size":[176,24],"pos":[40,208],"script":"home.2","pattern":37,"text":"Weird Civil War (work name)"}
+button4:{"type":"button","size":[176,24],"pos":[40,208],"script":"home.3","pattern":37,"text":"Weird Civil War (work name)"}
 field3:{"type":"field","size":[176,48],"pos":[8,264],"locked":1,"font":"menu","show":"transparent","border":0,"scrollbar":0,"value":"And more, I guess"}
 field4:{"type":"field","size":[100,20],"pos":[408,320],"locked":1,"show":"transparent","border":0,"align":"center","value":{"text":["Powered by ","Decker"],"font":["",""],"arg":["","https://beyondloom.com/decker/"]}}
 field5:{"type":"field","size":[280,56],"pos":[8,24],"locked":1,"font":"ZC Pixtura Corvida","show":"transparent","border":0,"scrollbar":0,"value":"Otto's Dwelling"}
@@ -40,6 +40,12 @@ end
 {script:home.2}
 on click do
   go["Dragonriders" "SlideLeft"]
+end
+{end}
+
+{script:home.3}
+on click do
+  go["Weird Civil War" "SlideLeft"]
 end
 {end}
 
